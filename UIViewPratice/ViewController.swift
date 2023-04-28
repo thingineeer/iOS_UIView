@@ -69,6 +69,7 @@ class ViewController: UIViewController {
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         mainLabel.text = "초를 선택 하시오."
+        
         slider.value = 0.5
     }
     
